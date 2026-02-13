@@ -1,33 +1,35 @@
 openapi: 3.0.4
 info:
   title: Compliment Generator
-  description: Compliment Generator creates unique, heartfelt compliments using template-based generation with extensive word banks. Perfect for apps, chatbots, or spreading positivity.
+  description: >-
+    Compliment Generator creates unique, heartfelt compliments using
+    template-based generation with extensive word banks. Perfect for apps,
+    chatbots, or spreading positivity.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
     email: hello@apiverve.com
     url: https://apiverve.com/contact
-  version: 1.0.9
+  version: 1.0.0
 externalDocs:
   description: Learn more about APIVerve
   url: https://docs.apiverve.com?utm_source=openapi
 servers:
-- url: https://api.apiverve.com/
+  - url: https://api.apiverve.com/
 paths:
   /v1/compliments:
     get:
       summary: Generate Compliment
-      description: Compliment Generator creates unique, heartfelt compliments using template-based generation with extensive word banks. Perfect for apps, chatbots, or spreading positivity.
+      description: Generate a unique compliment
       operationId: compliments
       parameters:
-      - name: adult
-        default: false
-        in: query
-        schema:
-          type: boolean
-        required: false
-        description: Include flirty/romantic compliments
-        example: false
+        - name: adult
+          in: query
+          schema:
+            type: boolean
+          required: false
+          description: Include flirty/romantic compliments
+          example: false
       responses:
         '200':
           description: Successful Response
@@ -43,19 +45,19 @@ paths:
                     type: string
                     description: error
                   data:
-                    type: string
+                    type: object
                     description: data
               example:
                 status: ok
-                error: 
+                error: null
                 data:
-                  compliment: You have the thoughtfulness needed to achieve your dreams.
+                  compliment: Your graceful professionalism is an asset to everyone.
         '401':
           description: Your request was not authorized, or your API Key was invalid
         '404':
           description: Requested resource was not found
         '500':
-          description: A server error has occured, try again later
+          description: A server error has occurred, try again later
 components:
   securitySchemes:
     api_key:
@@ -63,4 +65,4 @@ components:
       name: x-api-key
       in: header
 security:
-- api_key: []
+  - api_key: []
