@@ -13,12 +13,7 @@ const API_URL = 'https://api.apiverve.com/v1/compliments';
  */
 async function callComplimentGeneratorAPI() {
   try {
-    // Query parameters
-    const params &#x3D; new URLSearchParams({
-            adult: false
-        });
-
-    const response = await fetch(`${API_URL}?${params}`, {
+    const response = await fetch(API_URL, {
       method: 'GET',
       headers: {
         'x-api-key': API_KEY
