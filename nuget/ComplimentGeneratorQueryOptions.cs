@@ -12,7 +12,6 @@ namespace APIVerve.API.ComplimentGenerator
     {
         /// <summary>
         /// Include flirty/romantic compliments
-        /// Example: false
         /// </summary>
         [JsonProperty("adult")]
         public string Adult { get; set; }
