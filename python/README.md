@@ -44,7 +44,7 @@ from apiverve_complimentgenerator.apiClient import ComplimentsAPIClient
 # Initialize the client with your APIVerve API key
 api = ComplimentsAPIClient("[YOUR_API_KEY]")
 
-query = { "adult":  }
+query = { "adult": }
 
 try:
     # Make the API call
@@ -82,7 +82,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```python
-query = { "adult":  }
+query = { "adult": }
 ```
 
 ###### Simple Request
@@ -120,7 +120,7 @@ from apiverve_complimentgenerator.apiClient import ComplimentsAPIClient, Complim
 
 api = ComplimentsAPIClient("[YOUR_API_KEY]")
 
-query = { "adult":  }
+query = { "adult": }
 
 try:
     result = api.execute(query)
@@ -141,7 +141,7 @@ from apiverve_complimentgenerator.apiClient import ComplimentsAPIClient, Complim
 
 api = ComplimentsAPIClient("[YOUR_API_KEY]")
 
-query = { "adult":  }
+query = { "adult": }
 
 try:
     result = api.execute(query)
@@ -175,7 +175,7 @@ The client supports the context manager protocol for automatic resource cleanup:
 ```python
 from apiverve_complimentgenerator.apiClient import ComplimentsAPIClient, ComplimentsAPIClientError
 
-query = { "adult":  }
+query = { "adult": }
 
 # Using context manager ensures proper cleanup
 with ComplimentsAPIClient("[YOUR_API_KEY]") as api:
@@ -201,7 +201,7 @@ from apiverve_complimentgenerator.apiClient import ComplimentsAPIClient
 # Enable debug mode
 api = ComplimentsAPIClient("[YOUR_API_KEY]", debug=True)
 
-query = { "adult":  }
+query = { "adult": }
 
 # Debug information will be printed to console
 result = api.execute(query)
@@ -216,8 +216,9 @@ from apiverve_complimentgenerator.apiClient import ComplimentsAPIClient
 
 api = ComplimentsAPIClient("[YOUR_API_KEY]")
 
+query = { "adult": }
+
 try:
-    query = { "adult":  }
     result = api.execute(query)
     print(result)
 finally:
