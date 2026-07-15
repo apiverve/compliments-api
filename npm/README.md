@@ -122,7 +122,7 @@ async function makeRequest() {
   "status": "ok",
   "error": null,
   "data": {
-    "compliment": "You have the thoughtfulness needed to achieve your dreams."
+    "compliment": "Your graceful professionalism is an asset to everyone."
   }
 }
 ```
