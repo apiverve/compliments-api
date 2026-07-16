@@ -14,6 +14,6 @@ namespace APIVerve.API.ComplimentGenerator
         /// Include flirty/romantic compliments
         /// </summary>
         [JsonProperty("adult")]
-        public string Adult { get; set; }
+        public bool? Adult { get; set; }
     }
 }
