@@ -19,7 +19,7 @@ servers:
 paths:
   /v1/compliments:
     get:
-      summary: Generate Compliment
+      summary: Compliment Generator
       description: Generate a unique compliment
       operationId: compliments
       parameters:

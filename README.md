@@ -1,13 +1,13 @@
-# [Compliment Generator API](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Compliment Generator API](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
 Compliment Generator creates unique, heartfelt compliments using template-based generation with extensive word banks. Perfect for apps, chatbots, or spreading positivity.
 
 The Compliment Generator API provides a simple, reliable way to integrate compliment generator functionality into your applications. Built for developers who need production-ready compliment generator capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/compliments-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Compliment Generator API](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Compliment Generator API](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/compliments](https://docs.apiverve.com/ref/compliments)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -220,7 +220,7 @@ A real response from the Compliment Generator API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Compliment Generator API](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Compliment Generator API](https://apiverve.com/marketplace/compliments?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
