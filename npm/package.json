@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/compliments",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Compliment Generator creates unique, heartfelt compliments using template-based generation with extensive word banks. Perfect for apps, chatbots, or spreading positivity.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/compliments-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/compliments?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/compliments?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
